@@ -2,8 +2,10 @@
 # Netlify Build Settings
 # ----------------------
 [build]
-  command = "yarn build"       # 或 npm run build
-  publish = "dist"             # Astro 构建输出目录
+  # SSR 生产构建
+  command = "npm run build"
+  # Astro 输出目录
+  publish = "dist"
 
 # ----------------------
 # Netlify Functions 设置
@@ -13,10 +15,10 @@
   node_bundler = "esbuild"
 
 # ----------------------
-# Astro SSR 路由转发
-# output = "server" 必须有这个 redirect
+# SSR 路由转发
+# output = "server" 必须有这条 redirect
 # ----------------------
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/astro" 
+  to = "/.netlify/functions/astro"
   status = 200
