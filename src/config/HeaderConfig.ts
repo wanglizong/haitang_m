@@ -8,10 +8,10 @@ export const headerConfig = {
     //   text: '诗词 + AI',
     //   href: '/ai',
     // },
-    {
-      text: '每日一诗 🔥',
-      href: '/today',
-    },
+    // {
+    //   text: '每日一诗 🔥',
+    //   href: '/today',
+    // },
     {
       text: '诗集',
       // href: '/collections',
