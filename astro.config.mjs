@@ -18,7 +18,7 @@ export default defineConfig({
   output: "server",
   adapter: netlify(),
 
-  site: config.site.base_url,
+  site: "https://aoteman.org/",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
 
