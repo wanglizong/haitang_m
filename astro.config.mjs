@@ -58,7 +58,9 @@ export default defineConfig({
 
   integrations: [
     react(),
-    sitemap(),
+     sitemap({
+          filter: (page) => typeof page === "string" && page.length > 0,
+        }),
     tailwind({ config: { applyBaseStyles: false } }),
     AutoImport({ imports: [] }),
     mdx(),
