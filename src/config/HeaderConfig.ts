@@ -6,7 +6,7 @@ export const headerConfig = {
     },
     {
       text: 'PDF工具',
-      href: 'https://hello-pdf.com/',
+      href: 'https://hello-pdf.com/zh',
     },
     // {
     //   text: '每日一诗 🔥',
