@@ -4,10 +4,10 @@ export const headerConfig = {
       text: '首页',
       href: '/',
     },
-    // {
-    //   text: '诗词 + AI',
-    //   href: '/ai',
-    // },
+    {
+      text: 'PDF工具',
+      href: 'https://hello-pdf.com/',
+    },
     // {
     //   text: '每日一诗 🔥',
     //   href: '/today',
